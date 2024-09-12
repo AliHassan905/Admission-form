@@ -98,8 +98,7 @@ input#num::placeholder {
     height: auto;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
-    padding: 19px 0px;
+    padding: 25px 0px;
 }
 
 
