@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bg">
+        <div class="overlay">
+        <div class="form">
+            <div class="icons">
+                <i class="fa-solid fa-users fa-xl" style="color: #ffffff;"></i>
+                <h2 class="first">Admission Form</h2>
+            </div>
+            <div class="flex">
+                <input type="text" name="text" id="text" placeholder="First Name">
+                <input type="text" name="text" id="text1" placeholder="Second Name">
+            </div>
+            <input type="email" name="email" id="email" placeholder="Email"><br>
+            <input type="password" name="pass" id="pass" placeholder="Password"><br>
+            <input type="number" name="num" id="num" placeholder="Number">
+            <div class="flex">
+                <input type="text" name="City" id="City" placeholder="City">
+                <input type="number" name="zip" id="zip" placeholder="Zip Code">
+            </div>
+            <button onClick="Submit()" class="Submit">Submit</button>
+
+        </div>
+        <div id="root"></div>
+    </div>
+</div>
+    <script src="javaScript.js"></script>
+</body>
+
+</html>
